@@ -344,46 +344,59 @@ hr {
   width: 100%;
   left: 0; }
 
-.col-xl-12.blackbox {
-  background-color: #000000;
-  padding: 170px 0px; }
-  .col-xl-12.blackbox .header-title1 {
-    color: #ffffff;
-    text-align: center; }
+body {
+  font-family: 'Lato';
+  font-size: 22px; }
 
-.col-xl-6.box-one, .col-xl-6.box-two {
-  background-color: #cbcbcb;
-  text-align: center;
-  border: 3px solid #333333; }
+.row.top-bar {
+  background-color: #0A3956;
+  text-align: right; }
+  .row.top-bar .top-bar-menu {
+    list-style: none;
+    display: inline-flex;
+    margin: 8px 0px; }
+  .row.top-bar .top-bar-link {
+    color: #FFFFFF;
+    text-decoration: none; }
 
-.col-xl-4.greenbox {
-  background-color: #cbcbcb;
-  padding: 100px 0;
-  text-align: center;
-  border: 3px solid #333333; }
-  .col-xl-4.greenbox .header-title2 {
-    color: #ffffff; }
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 0px !important; }
 
-.col-xl-4.bluebox {
-  background-color: #cbcbcb;
-  padding: 100px 0;
-  text-align: center;
-  border: 3px solid #333333; }
-  .col-xl-4.bluebox .header-title2 {
-    color: #ffffff; }
-
-.col-xl-4.redbox {
-  background-color: #cbcbcb;
-  padding: 100px 0;
-  text-align: center;
-  border: 3px solid #333333; }
-  .col-xl-4.redbox .header-title2 {
-    color: #ffffff; }
-
-.col-xl-3.third-row {
-  background-color: #cbcbcb;
-  text-align: center;
-  border: 3px solid #333333; }
+.row.three-box {
+  margin-top: -85px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative; }
+  .row.three-box .header-title-heavy {
+    color: #FFFFFF;
+    font-size: 49px;
+    text-align: left;
+    margin-bottom: 0px; }
+    .row.three-box .header-title-heavy .bold {
+      font-weight: 900; }
+    .row.three-box .header-title-heavy .thin {
+      font-weight: 300; }
+  .row.three-box .col-xl-4.apply-now-bg {
+    background-color: #1A5B83;
+    padding: 20px 30px 20px 30px; }
+    .row.three-box .col-xl-4.apply-now-bg .apply-desc {
+      color: #FFFFFF; }
+  .row.three-box .col-xl-4.join-now-bg {
+    background-color: #0A3956;
+    padding: 20px 30px 20px 30px; }
+    .row.three-box .col-xl-4.join-now-bg .join-desc {
+      color: #FFFFFF; }
+  .row.three-box .col-xl-4.login-box {
+    background-color: #1A5B83; }
+    .row.three-box .col-xl-4.login-box .header-title-heavy-third {
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 10px 5px 20px 0px;
+      text-align: right; }
 
 .col-xl-3.footer {
   background-color: #cbcbcb;
