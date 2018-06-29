@@ -348,16 +348,27 @@ body {
   font-family: 'Lato';
   font-size: 22px; }
 
-.row.top-bar {
-  background-color: #0A3956;
-  text-align: right; }
-  .row.top-bar .top-bar-menu {
-    list-style: none;
-    display: inline-flex;
-    margin: 8px 0px; }
-  .row.top-bar .top-bar-link {
-    color: #FFFFFF;
-    text-decoration: none; }
+.container-fluid.top-bar {
+  background-color: #0A3956; }
+  .container-fluid.top-bar .row.top-bar {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #0A3956;
+    text-align: right; }
+    .container-fluid.top-bar .row.top-bar .top-bar-menu {
+      list-style: none;
+      display: inline-flex;
+      margin: 8px 0px; }
+    .container-fluid.top-bar .row.top-bar .top-bar-link {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 18px; }
+
+.container-fluid.menu {
+  background-color: #F8F9FA; }
+  .container-fluid.menu .navbar.navbar-expand-lg.navbar-light.bg-light {
+    max-width: 1440px;
+    margin: 0 auto; }
 
 .nav-link {
   font-size: 18px;
@@ -365,51 +376,93 @@ body {
   margin-left: 20px;
   padding: 0px !important; }
 
-.row.three-box {
-  margin-top: -85px;
-  padding-left: 100px;
-  padding-right: 100px;
-  position: relative; }
-  .row.three-box .header-title-heavy {
-    color: #FFFFFF;
-    font-size: 49px;
-    text-align: left;
-    margin-bottom: 0px; }
-    .row.three-box .header-title-heavy .bold {
-      font-weight: 900; }
-    .row.three-box .header-title-heavy .thin {
-      font-weight: 300; }
-  .row.three-box .col-xl-4.apply-now-bg {
-    background-color: #1A5B83;
-    padding: 20px 30px 20px 30px; }
-    .row.three-box .col-xl-4.apply-now-bg .apply-desc {
-      color: #FFFFFF; }
-  .row.three-box .col-xl-4.join-now-bg {
-    background-color: #0A3956;
-    padding: 20px 30px 20px 30px; }
-    .row.three-box .col-xl-4.join-now-bg .join-desc {
-      color: #FFFFFF; }
-  .row.three-box .col-xl-4.login-box {
-    background-color: #1A5B83; }
-    .row.three-box .col-xl-4.login-box .header-title-heavy-third {
+.container-fluid.cta {
+  max-width: 1240px; }
+  .container-fluid.cta .row.three-box {
+    margin-top: -85px;
+    position: relative;
+    -webkit-box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75); }
+    .container-fluid.cta .row.three-box .header-title-heavy {
       color: #FFFFFF;
-      font-size: 18px;
-      font-weight: 800;
-      padding: 10px 5px 20px 0px;
-      text-align: right; }
+      font-size: 49px;
+      text-align: left;
+      margin-bottom: 0px; }
+      .container-fluid.cta .row.three-box .header-title-heavy .bold {
+        font-weight: 900; }
+      .container-fluid.cta .row.three-box .header-title-heavy .thin {
+        font-weight: 300; }
+    .container-fluid.cta .row.three-box .col-xl-4.apply-now-bg {
+      background-color: #1A5B83;
+      padding: 20px 30px 20px 30px; }
+      .container-fluid.cta .row.three-box .col-xl-4.apply-now-bg .apply-desc {
+        color: #FFFFFF; }
+    .container-fluid.cta .row.three-box .col-xl-4.join-now-bg {
+      background-color: #0A3956;
+      padding: 20px 30px 20px 30px; }
+      .container-fluid.cta .row.three-box .col-xl-4.join-now-bg .join-desc {
+        color: #FFFFFF; }
+    .container-fluid.cta .row.three-box .col-xl-4.login-box {
+      background-color: #1A5B83;
+      padding: 0px 30px 20px;
+      margin-top: -50px; }
+      .container-fluid.cta .row.three-box .col-xl-4.login-box .header-title-heavy-third {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 800;
+        padding: 10px 5px 0px 0px;
+        margin-bottom: 10px;
+        text-align: right; }
+      .container-fluid.cta .row.three-box .col-xl-4.login-box .form-title {
+        color: #FFFFFF;
+        font-size: 14px; }
+      .container-fluid.cta .row.three-box .col-xl-4.login-box .login-email {
+        border-width: 0px;
+        width: 100%;
+        border-radius: 3px;
+        height: 35px;
+        font-size: 18px;
+        padding-left: 10px; }
+      .container-fluid.cta .row.three-box .col-xl-4.login-box .login-button {
+        width: 100%;
+        background-color: #F5A800;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-width: 0px;
+        padding: 2px; }
 
-.col-xl-3.footer {
-  background-color: #cbcbcb;
-  text-align: center;
-  padding: 75px 0;
-  border: 3px solid #333333; }
-
-.col-xl-12.copyright {
-  background-color: #cbcbcb;
-  text-align: center;
-  border: 3px solid #333333;
-  padding: 10px 0px 10px 0px;
-  align-content: center; }
-  .col-xl-12.copyright .copyright-info {
-    color: #fff;
-    margin: 0px; }
+.container-fluid.services {
+  max-width: 1440px; }
+  .container-fluid.services .row.services {
+    margin: 80px 0px; }
+    .container-fluid.services .row.services .col-xl-3.balance-box .services-image, .container-fluid.services .row.services .col-xl-3.shelter-box .services-image, .container-fluid.services .row.services .col-xl-3.inspire-box .services-image, .container-fluid.services .row.services .col-xl-3.cd-box .services-image {
+      -webkit-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 6px 60px -20px rgba(0, 0, 0, 0.75); }
+    .container-fluid.services .row.services .services-title {
+      font-size: 25px;
+      color: #1A5B83;
+      line-height: 1.1;
+      margin: 20px 0 0 0; }
+    .container-fluid.services .row.services .bold {
+      font-weight: 900; }
+    .container-fluid.services .row.services .thin {
+      font-weight: 100; }
+    .container-fluid.services .row.services .services-desc {
+      margin-top: 5px;
+      line-height: 1.3; }
+  .container-fluid.services .col-xl-3.footer {
+    background-color: #cbcbcb;
+    text-align: center;
+    padding: 75px 0;
+    border: 3px solid #333333; }
+  .container-fluid.services .col-xl-12.copyright {
+    background-color: #cbcbcb;
+    text-align: center;
+    border: 3px solid #333333;
+    padding: 10px 0px 10px 0px;
+    align-content: center; }
+    .container-fluid.services .col-xl-12.copyright .copyright-info {
+      color: #fff;
+      margin: 0px; }
