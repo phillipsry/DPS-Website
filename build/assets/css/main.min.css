@@ -452,17 +452,140 @@ body {
     .container-fluid.services .row.services .services-desc {
       margin-top: 5px;
       line-height: 1.3; }
-  .container-fluid.services .col-xl-3.footer {
-    background-color: #cbcbcb;
+
+.container-fluid.rates {
+  background-color: #0A3956;
+  padding: 50px 15px; }
+  .container-fluid.rates .row.loan-rates {
+    margin: 0 auto;
+    background-color: none;
+    max-width: 1440px; }
+    .container-fluid.rates .row.loan-rates .rates-bold {
+      font-size: 25px;
+      color: #FFFFFF;
+      font-weight: 900;
+      line-height: 1.0; }
+    .container-fluid.rates .row.loan-rates .rates-thin {
+      font-size: 20px;
+      color: #FFFFFF;
+      font-weight: 300;
+      line-height: 1.0; }
+    .container-fluid.rates .row.loan-rates .percentage {
+      font-size: 53px;
+      font-weight: 100;
+      line-height: 1.0;
+      color: #FFFFFF; }
+    .container-fluid.rates .row.loan-rates .sub-apr {
+      font-size: 14px;
+      color: #FFFFFF;
+      font-weight: 200;
+      line-height: 1.0; }
+    .container-fluid.rates .row.loan-rates .col-xl-3.firearm-rate {
+      border-right: solid 1px #FFFFFF;
+      max-width: 20%; }
+    .container-fluid.rates .row.loan-rates .col-xl-3.rate-button {
+      align-self: center;
+      text-align: center;
+      padding-left: 80px; }
+      .container-fluid.rates .row.loan-rates .col-xl-3.rate-button .btn.btn-primary.rates {
+        padding: 10px 80px;
+        background-color: #F5A800;
+        border-radius: 3px;
+        border: none;
+        color: #FFFFFF; }
+
+.container-fluid.trooper {
+  background-image: url(/assets/img/ok-state-trooper-photo.jpg);
+  padding: 120px 0px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .container-fluid.trooper .row.member-cta {
+    max-width: 1440px;
+    margin: 0 auto; }
+  .container-fluid.trooper .member-heading {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 54px;
+    padding-left: 30px; }
+  .container-fluid.trooper .member-desc {
+    color: #FFFFFF;
+    padding-left: 30px; }
+  .container-fluid.trooper .btn.btn-primary.members {
+    background-color: #FFB106;
+    border: none;
+    margin-left: 30px; }
+
+.container-fluid.services-icons {
+  background-color: #FFFFFF;
+  padding: 50px 30px 0px 30px; }
+  .container-fluid.services-icons .row.icon-columns {
+    max-width: 1440px;
+    margin: 0 auto; }
+  .container-fluid.services-icons .col-xl-3.services-modules {
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #C3C3C3;
     text-align: center;
-    padding: 75px 0;
-    border: 3px solid #333333; }
-  .container-fluid.services .col-xl-12.copyright {
-    background-color: #cbcbcb;
+    margin-bottom: 30px; }
+    .container-fluid.services-icons .col-xl-3.services-modules .membership-icon {
+      padding-bottom: 20px; }
+    .container-fluid.services-icons .col-xl-3.services-modules .checking-icon {
+      padding-bottom: 21px; }
+    .container-fluid.services-icons .col-xl-3.services-modules .savings-icon {
+      padding-bottom: 12px; }
+  .container-fluid.services-icons .col-xl-3.services-modules-none {
     text-align: center;
-    border: 3px solid #333333;
-    padding: 10px 0px 10px 0px;
-    align-content: center; }
-    .container-fluid.services .col-xl-12.copyright .copyright-info {
-      color: #fff;
-      margin: 0px; }
+    margin-bottom: 30px; }
+    .container-fluid.services-icons .col-xl-3.services-modules-none .loans-icon {
+      padding-top: 8px;
+      padding-bottom: 20px; }
+  .container-fluid.services-icons .header-title-services {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500; }
+
+.container-fluid.footer {
+  background-color: #292D2D;
+  text-align: center;
+  padding: 75px 15px;
+  border: 3px solid #333333; }
+  .container-fluid.footer .row.footer-nav {
+    max-width: 1440px;
+    margin: 0 auto; }
+  .container-fluid.footer .col-xl-2.services-footer, .container-fluid.footer .col-xl-2.findus-footer, .container-fluid.footer .col-xl-2.community-footer, .container-fluid.footer .col-xl-2.customerhelp-footer {
+    text-align: left;
+    text-decoration: none; }
+    .container-fluid.footer .col-xl-2.services-footer .header-title-footer, .container-fluid.footer .col-xl-2.findus-footer .header-title-footer, .container-fluid.footer .col-xl-2.community-footer .header-title-footer, .container-fluid.footer .col-xl-2.customerhelp-footer .header-title-footer {
+      font-size: 18px;
+      color: #DFA023;
+      font-weight: 500; }
+    .container-fluid.footer .col-xl-2.services-footer ul, .container-fluid.footer .col-xl-2.findus-footer ul, .container-fluid.footer .col-xl-2.community-footer ul, .container-fluid.footer .col-xl-2.customerhelp-footer ul {
+      list-style: none;
+      text-align: left;
+      padding-left: 0px;
+      line-height: 1.0; }
+    .container-fluid.footer .col-xl-2.services-footer li, .container-fluid.footer .col-xl-2.findus-footer li, .container-fluid.footer .col-xl-2.community-footer li, .container-fluid.footer .col-xl-2.customerhelp-footer li {
+      padding-top: 10px; }
+      .container-fluid.footer .col-xl-2.services-footer li .footer-link, .container-fluid.footer .col-xl-2.findus-footer li .footer-link, .container-fluid.footer .col-xl-2.community-footer li .footer-link, .container-fluid.footer .col-xl-2.customerhelp-footer li .footer-link {
+        color: #FFFFFF;
+        font-size: 16px; }
+  .container-fluid.footer .col-xl-4.footer-logos {
+    text-align: center; }
+    .container-fluid.footer .col-xl-4.footer-logos .mini-logos {
+      margin-bottom: 15px; }
+
+.container-fluid.copyright {
+  background-color: #000000; }
+  .container-fluid.copyright .row.end {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .container-fluid.copyright .row.end .col-xl-12.copyright {
+      background-color: #000000;
+      text-align: left;
+      padding: 10px 0px 10px 15px;
+      align-content: center; }
+      .container-fluid.copyright .row.end .col-xl-12.copyright .copyright-info {
+        color: #727272;
+        margin: 0px; }
+        .container-fluid.copyright .row.end .col-xl-12.copyright .copyright-info a {
+          color: #727272; }
