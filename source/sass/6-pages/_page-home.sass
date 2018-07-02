@@ -22,6 +22,13 @@ body
       color: #FFFFFF
       text-decoration: none
       font-size: 18px
+      @media (max-width: 700px)
+        font-size: 14px
+      @media (max-width: 543px)
+        font-size: 12px
+      @media (max-width: 482px)
+        font-size: 9px
+
 
 .container-fluid.menu
   background-color: #F8F9FA
@@ -29,6 +36,11 @@ body
   .navbar.navbar-expand-lg.navbar-light.bg-light
     max-width: 1440px
     margin: 0 auto
+
+    .navbar-brand
+      @media (max-width: 560px)
+        width: 60%
+        height: 60%
 
 .nav-link
   font-size: 18px
@@ -38,6 +50,12 @@ body
 
 .container-fluid.cta
   max-width: 1240px
+  @media (max-width: 1200px)
+    max-width: 900px
+  @media (max-width: 1000px)
+    max-width: 500px
+  @media (max-width: 550px)
+    max-width: 330px
 
   .row.three-box
     margin-top: -85px
@@ -45,6 +63,8 @@ body
     -webkit-box-shadow: 1px 14px 61px -12px rgba(0,0,0,0.75)
     -moz-box-shadow: 1px 14px 61px -12px rgba(0,0,0,0.75)
     box-shadow: 1px 14px 61px -12px rgba(0,0,0,0.75)
+    @media (max-width: 550px)
+      margin-top: -20px
 
     .header-title-heavy
       color: #FFFFFF
@@ -73,6 +93,9 @@ body
       background-color: #1A5B83
       padding: 0px 30px 20px
       margin-top: -50px
+      @media (max-width: 1200px)
+        margin-top: 0px
+
       .header-title-heavy-third
         color: #FFFFFF
         font-size: 18px
@@ -102,10 +125,13 @@ body
 
 .container-fluid.services
   max-width: 1440px
+  @media (max-width: 1200px)
+      text-align: center
 
   .row.services
     margin: 80px 0px
-    .col-xl-3.balance-box, .col-xl-3.shelter-box, .col-xl-3.inspire-box, .col-xl-3.cd-box
+  @media (max-width: 1200px)
+      max-width: 100%
 
       .services-image
         -webkit-box-shadow: 0px 6px 61px -20px rgba(0,0,0,0.75)
@@ -130,6 +156,7 @@ body
 .container-fluid.rates
   background-color: #0A3956
   padding: 50px 15px
+
   .row.loan-rates
     margin: 0 auto
     background-color: none
@@ -186,14 +213,11 @@ body
     color: #FFFFFF
     font-weight: 500
     font-size: 54px
-    padding-left: 30px
   .member-desc
     color: #FFFFFF
-    padding-left: 30px
   .btn.btn-primary.members
     background-color: #FFB106
     border: none
-    margin-left: 30px
 
 .container-fluid.services-icons
   background-color: #FFFFFF

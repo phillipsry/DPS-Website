@@ -363,12 +363,25 @@ body {
       color: #FFFFFF;
       text-decoration: none;
       font-size: 18px; }
+      @media (max-width: 700px) {
+        .container-fluid.top-bar .row.top-bar .top-bar-link {
+          font-size: 14px; } }
+      @media (max-width: 543px) {
+        .container-fluid.top-bar .row.top-bar .top-bar-link {
+          font-size: 12px; } }
+      @media (max-width: 482px) {
+        .container-fluid.top-bar .row.top-bar .top-bar-link {
+          font-size: 9px; } }
 
 .container-fluid.menu {
   background-color: #F8F9FA; }
   .container-fluid.menu .navbar.navbar-expand-lg.navbar-light.bg-light {
     max-width: 1440px;
     margin: 0 auto; }
+    @media (max-width: 560px) {
+      .container-fluid.menu .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+        width: 60%;
+        height: 60%; } }
 
 .nav-link {
   font-size: 18px;
@@ -378,12 +391,24 @@ body {
 
 .container-fluid.cta {
   max-width: 1240px; }
+  @media (max-width: 1200px) {
+    .container-fluid.cta {
+      max-width: 900px; } }
+  @media (max-width: 1000px) {
+    .container-fluid.cta {
+      max-width: 500px; } }
+  @media (max-width: 550px) {
+    .container-fluid.cta {
+      max-width: 330px; } }
   .container-fluid.cta .row.three-box {
     margin-top: -85px;
     position: relative;
     -webkit-box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 14px 61px -12px rgba(0, 0, 0, 0.75); }
+    @media (max-width: 550px) {
+      .container-fluid.cta .row.three-box {
+        margin-top: -20px; } }
     .container-fluid.cta .row.three-box .header-title-heavy {
       color: #FFFFFF;
       font-size: 49px;
@@ -407,6 +432,9 @@ body {
       background-color: #1A5B83;
       padding: 0px 30px 20px;
       margin-top: -50px; }
+      @media (max-width: 1200px) {
+        .container-fluid.cta .row.three-box .col-xl-4.login-box {
+          margin-top: 0px; } }
       .container-fluid.cta .row.three-box .col-xl-4.login-box .header-title-heavy-third {
         color: #FFFFFF;
         font-size: 18px;
@@ -434,12 +462,18 @@ body {
 
 .container-fluid.services {
   max-width: 1440px; }
+  @media (max-width: 1200px) {
+    .container-fluid.services {
+      max-width: 100%; } }
   .container-fluid.services .row.services {
     margin: 80px 0px; }
-    .container-fluid.services .row.services .col-xl-3.balance-box .services-image, .container-fluid.services .row.services .col-xl-3.shelter-box .services-image, .container-fluid.services .row.services .col-xl-3.inspire-box .services-image, .container-fluid.services .row.services .col-xl-3.cd-box .services-image {
-      -webkit-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
-      box-shadow: 0px 6px 60px -20px rgba(0, 0, 0, 0.75); }
+    @media (max-width: 1200px) {
+      .container-fluid.services .row.services {
+        text-align: center; }
+        .container-fluid.services .row.services .services-image {
+          -webkit-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 6px 61px -20px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 6px 60px -20px rgba(0, 0, 0, 0.75); } }
     .container-fluid.services .row.services .services-title {
       font-size: 25px;
       color: #1A5B83;
@@ -460,6 +494,9 @@ body {
     margin: 0 auto;
     background-color: none;
     max-width: 1440px; }
+    @media (max-width: 1200px) {
+      .container-fluid.rates .row.loan-rates {
+        text-align: center; } }
     .container-fluid.rates .row.loan-rates .rates-bold {
       font-size: 25px;
       color: #FFFFFF;
@@ -505,15 +542,12 @@ body {
   .container-fluid.trooper .member-heading {
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 54px;
-    padding-left: 30px; }
+    font-size: 54px; }
   .container-fluid.trooper .member-desc {
-    color: #FFFFFF;
-    padding-left: 30px; }
+    color: #FFFFFF; }
   .container-fluid.trooper .btn.btn-primary.members {
     background-color: #FFB106;
-    border: none;
-    margin-left: 30px; }
+    border: none; }
 
 .container-fluid.services-icons {
   background-color: #FFFFFF;
